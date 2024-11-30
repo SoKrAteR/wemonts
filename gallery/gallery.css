@@ -1,0 +1,61 @@
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #d0e2fc;
+
+}
+
+.h1-gallery{
+    font-family: "Concert One", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    text-align: center;
+    opacity: .9;
+    position: absolute;
+}
+.h1-gallery span{
+    font-size: 20px;
+    display: block;
+    margin-top: 5px;
+}
+.gallery{
+    width: 30vw;
+    column-width: 2em;
+    gap: 0.5em;
+    transform: scale(8.2);
+    will-change: transform;
+    transition: transform 1s cubic-bezier(.075, 1, .25, 1), opacity 1s;
+
+}
+.gallery__item{
+    margin-bottom: 0.5em;
+    transform: scale(1.001) ;
+    will-change: transform;
+    z-index: -13;
+}
+.gallery__item:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+.gallery__item img{
+    width: 100%;
+}
+
+.loaded .gallery{
+    opacity: 1;
+}
+
+.loaded .h1-gallery span{
+    opacity: 0;
+}
+
