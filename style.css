@@ -384,7 +384,7 @@ ul{
     height: 3vw;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .services-img{
         position: absolute;
         top: 33vw;
