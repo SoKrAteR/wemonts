@@ -15,7 +15,7 @@ body{
     position: absolute;
 }
 .header{
-    background-image: url(/img/Rectangle\ 8.png);
+    background-image: url(./img/Rectangle\ 8.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
