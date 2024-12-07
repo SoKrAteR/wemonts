@@ -148,7 +148,7 @@ body {
     flex-direction: row;
     column-gap: 2.7vw;
     align-items: center;
-    margin-top: 3vw;
+    margin-top: 4vw;
     margin-left: 6.2vw;
 }
 .header-text{
@@ -394,8 +394,8 @@ ul{
 }
 
 .header-logo{
-    width: 21vw;
-    height:21vw;
+    width: 18vw;
+    height: 18vw;
 }
 
 .services-img{

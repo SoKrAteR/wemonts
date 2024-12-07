@@ -69,32 +69,32 @@ const homeTexts = {
 	"home_page-13": {
 		ru: "Обвязка оборудования технологическими трубопроводами из нержавеющей стали.",
 		en: "Equipment piping with stainless steel technological pipelines.",
-		de: "Eine andere Seite",
+		de: "Aprīkojuma cauruļvadi ar nerūsējošā tērauda tehnoloģiskajām caurulēm.",
 	},
 	"home_page-14": {
 		ru: "Прокладка кабельных трасс, кабелей, монтаж КИПиА, монтаж шкафов управления.",
 		en: "Laying cable routes, installing cables, instrumentation and control (I&C) installation, and control cabinet assembly.",
-		de: "Eine andere Seite",
+		de: "Kabeļu maršrutu ierīkošana, kabeļu uzstādīšana, instrumentācijas un vadības (I&V) uzstādīšana, kā arī vadības skapju montāža.",
 	},
 	"home_page-15": {
 		ru: "Проектирование, обеспечение:",
 		en: "Designing, providing:",
-		de: "Eine andere Seite",
+		de: "Projektēšana, nodrošināšana:",
 	},
 	"home_page-16": {
 		ru: "Проектирование металлоконструкций, трубопроводов и узлов управления.",
 		en: "Design of metal structures, pipelines, and control units.",
-		de: "Eine andere Seite",
+		de: "Metāla konstrukciju, cauruļvadu un vadības bloku projektēšana.",
 	},
 	"home_page-17": {
 		ru: "Поставка комплектующих из нержавеющей стали AISI 304, AISI 316L и оборудования для пищевых производств.",
 		en: "Supply of components made of stainless steel AISI 304, AISI 316L, and equipment for food production.",
-		de: "Eine andere Seite",
+		de: "Komponentu piegāde no nerūsējošā tērauda AISI 304, AISI 316L un iekārtu piegāde pārtikas ražošanai.",
 	},
 	"home_page-18": {
 		ru: "Преимущества нашей компании:",
 		en: "The advantages of our company:",
-		de: "Eine andere Seite",
+		de: "Mūsu uzņēmuma priekšrocības:",
 	},
 	"home_page-19": {
 		ru: "Умения и Опыт - у нас работают только квалифицированные работники, с высоким уровнем профессионализма, глубокими знаниями и опытом.",
@@ -119,7 +119,7 @@ const homeTexts = {
 	"home_page-23": {
 		ru: "Наша реализация сварочных и монтажных решений оправдает или превзойдет ваши ожидания.",
 		en: "Our implementation of welding and installation solutions will meet or exceed your expectations.",
-		de: "Eine andere Seite",
+		de: "Mūsu metināšanas un montāžas risinājumu īstenošana atbildīs jūsu cerībām vai pat pārsniegs tās.",
 	},
 	"home_page-24": {
 		ru: "Контакты",
@@ -172,44 +172,9 @@ const homeTexts = {
 		de: "SŪTĪT",
 	},
 };
-const anotherTexts = {
-	"another_page-title": {
-		ru: "Другая страница",
-		en: "Another page",
-		de: "Eine andere Seite",
-	},
-	"another_page-1": {
-		ru: "Первый параграф",
-		en: "First paragraph on another page",
-		de: "Erster Paragraph auf einer anderen Seite",
-	},
-	"another_page-2": {
-		ru: "Второй параграф",
-		en: "Second paragraph on another page",
-		de: "Zweiter Absatz auf einer anderen Seite",
-	},
-	"another_page-3": {
-		ru: "Третий параграф",
-		en: "Third paragraph on another page",
-		de: "Dritter Absatz auf einer anderen Seite",
-	},
-	"another_page-4": {
-		ru: "Домашняя страница",
-		en: "Homepage",
-		de: "Startseite",
-	},
-};
 
-// Проверка пути страницы сайта
 function checkPagePathName() {
 	switch (currentPathName) {
-		case "/index.html":
-			currentTexts = homeTexts;
-			break;
-		case "/another_page.html":
-			currentTexts = anotherTexts;
-			break;
-
 		default:
 			currentTexts = homeTexts;
 			break;
@@ -217,7 +182,6 @@ function checkPagePathName() {
 }
 checkPagePathName();
 
-// Изменение языка у текстов
 function changeLang() {
 	for (const key in currentTexts) {
 		let elem = document.querySelector(`[data-lang=${key}]`);
