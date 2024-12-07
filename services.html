@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/nullstyle.css" />
+		<link rel="stylesheet" href="services.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+		<title data-lang="home_page-title">Weldmonts</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<button class="header__btn" data-btn="ru">Ru</button>
+				<button class="header__btn" data-btn="en">En</button>
+				<button class="header__btn" data-btn="de">Lv</button>
+			</div>
+            <div class="container-btns">
+                <div class="cont-nav">
+                    <a href = "" class="header-line-items" data-lang="home_page-1">CONTACTS</a>
+                    <a href = "gallery/gallery.html" class="header-line-items" data-lang="home_page-2">GALLERY</a>
+                    <a href = "index.html" class="header-line-items current" data-lang="home_page-3">HOME</a>
+                </div>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+		</header>
+        <div class="main">
+            <div class="sign">
+                <div class="h1">WELDMONTS</div>
+                <div class="line"></div>
+                <div class="sign-text" data-lang="home_page-32">Ask us anything, or just say hello!</div>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" id="form" class="form-body">
+                <input type="hidden" name="access_key" value="806957f2-52fc-4731-977a-a310c7d986ec">
+                <div class="row-1">
+                    <input name = "name" size="50" class = "form-item req" placeholder="Name*" maxlength="50" required>
+                    <input name = "surname" class = "form-item req" placeholder="Surname*" maxlength="50" required>
+                </div>
+                <div class="rest-rows">
+                    <input name = "email" class = "form-item row-2 req email" placeholder="Email*" maxlength="50" required>
+                    <textarea name = "message" class = "form-item row-3 req" placeholder="Message*" required ></textarea>
+                </div>
+                <button class = "form-btn" type="submit" data-lang="home_page-33">SEND</button>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="footer-carts">
+                <div class="footer-cart No-1">
+                    <div class="footer-cart-h1" data-lang="home_page-22">
+                        About us
+                    </div>
+                    <div class="footer-cart-line"></div>
+                    <div class="footer-cart-text" data-lang="home_page-23">Our implementation of welding and installation solutions will meet or exceed your expectations.</div>
+                </div>
+                <div class="footer-cart No-2">
+                    <div class="footer-cart-h1 none" data-lang="home_page-24">
+                        Contacts
+                    </div>
+                    <div class="footer-cart-line none"></div>
+                    <div class="footer-cart-con">
+                        <div class="contacts">
+                            <img src="./img/87b12a1e8a11f6c1264a237c5f08c195 1.png" class="contacts-img" alt="">
+                            <span  data-lang="home_page-25">phone: +371 22 846 549</span>
+                        </div>
+                        <div class="contacts">
+                            <img src="./img/1264365 1.png" class="contacts-img" alt="">
+                            <span  data-lang="home_page-26">email: info@weldmonts.lv</span>
+                        </div>
+                        <div class="contacts">
+                            <img src="./img/home-icon-flat-design-1e2e8d 1.png" class="contacts-img" alt="">
+                            <span data-lang="home_page-27">address: J.Pliekšāna 96-31, Jūrmala.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-cart No-3">
+                    <div class="footer-cart-h1" data-lang="home_page-28">
+                        Menu
+                    </div>
+                    <div class="footer-cart-line"></div>
+                    <div class="footer-cart-options">
+                        <a href="index.html" class="text-1" data-lang="home_page-29">> Home</a>
+                        <a href="services.html" class="text-2" data-lang="home_page-30">> Contacts</a>
+                        <a href="gallery/gallery.html" class="text-3" data-lang="home_page-31">> Gallery</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-text">Copyright 2024 - 2025, SIA "WELDMONTS" made WebKaban</div>
+        </div>
+        <script src="script.js"></script>
+        <script>
+            document.querySelector(".burger").addEventListener("click", function(){
+                this.classList.toggle("active");
+                document.querySelector(".cont-nav").classList.toggle("open");
+            })
+        </script>
+    </body>
+</html>
