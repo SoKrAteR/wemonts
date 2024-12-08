@@ -12,6 +12,7 @@ body {
 	padding: 1vw 1.5vw;
     max-width: 20vw;
     position: absolute;
+    top: 0px;
 }
 .header {
     background-image: url(./img/fon-1.png);
@@ -37,20 +38,6 @@ body {
 	background-color: rgb(19, 19, 165);
 }
 
-
-.multi__text {
-	padding: 20px 0;
-}
-
-.multi__link {
-	color: lightgreen;
-	font-weight: 700;
-	background-color: rgb(87, 35, 87);
-	padding: 10px 20px;
-	border-radius: 10px;
-	text-decoration: none;
-	transition: 0.3s;
-}
 
 .container-btns{
     display: flex;

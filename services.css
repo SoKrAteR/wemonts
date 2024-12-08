@@ -350,6 +350,8 @@ form{
     .sign{
         height: 56vw;
         gap: 5vw;
+        margin-left: 3vw;
+        padding: 6.2vw 3vw 0px 3.6vw;
     }
     .h1{
         font-size: 5.2vw;
@@ -359,7 +361,7 @@ form{
     }
     
     .sign-text{
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .form-btn{
