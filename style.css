@@ -13,6 +13,7 @@ body {
     max-width: 20vw;
     position: absolute;
     top: 0px;
+    display: flex;
 }
 .header {
     background-image: url(./img/fon-1.png);
