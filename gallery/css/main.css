@@ -37,6 +37,8 @@ body {
 	transform: scale(8.2);
 	will-change: transform;
 	transition: transform 1s cubic-bezier(.075, 1, .25, 1), opacity 1s;
+	backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden; 
 }
 .gallery__item {
 	margin-bottom: .5em;
@@ -44,9 +46,13 @@ body {
 	will-change: transform;
 	transition: .3s;
 	display: block;
+	backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden; 
 }
 .gallery__item:hover {
 	transform: scale(1.03);
+	backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden; 
 }
 .gallery__item img {
 	width: 100%;
