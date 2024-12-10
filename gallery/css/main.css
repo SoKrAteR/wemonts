@@ -11,7 +11,15 @@ body {
 	align-items: center;
 	background-color: #d0e2fc;
 }
-
+.header-name{
+	font-family: "Concert One", sans-serif;
+    font-size: 2.6vw;
+    color: #ffffff;
+    letter-spacing: 5px;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+}
 .header {
 	letter-spacing: .1em;
 	font-size: calc(var(--index) * 2.8);
@@ -65,7 +73,8 @@ body {
 
 @media (max-width : 992px) {
 
-	.header {
+	.header-name{
+		opacity: 1;
 		position: relative;
 		font-size: 5vw;
 	}
