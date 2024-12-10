@@ -250,5 +250,11 @@ function checkBrowserLang() {
 		return navLang;
 	}
 }
+function isMacOS() {
+    return navigator.platform === "MacIntel";
+}
 
+if (isMacOS()) {
+    alert("Это устройство macOS");
+}
 console.log("navigator.language", checkBrowserLang());
