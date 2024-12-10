@@ -34,29 +34,29 @@ body {
 	width: 30vw;
 	column-width: 2em;
 	gap: .5em;
-	transform: scale(1);
+	transform: scale(8.2) translateZ(0);
 	will-change: transform;
 	transition: transform 1s cubic-bezier(.075, 1, .25, 1), opacity 1s;
-	backface-visibility: hidden; 
-    -webkit-backface-visibility: hidden; 
 }
 .gallery__item {
 	margin-bottom: .5em;
-	transform: scale(1);
-	will-change: transform;
+	transform: scale(1.001) translateZ(0);
+	will-change: transform ;
 	transition: .3s;
 	display: block;
 	backface-visibility: hidden; 
-    -webkit-backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden;
 }
 .gallery__item:hover {
-	transform: scale(1);
-	backface-visibility: hidden; 
-    -webkit-backface-visibility: hidden; 
+	transform: scale(1.03);
 }
 .gallery__item img {
 	width: 100%;
 	display: block;
+    image-rendering: optimizeQuality; 
+    -webkit-optimize-contrast: auto;
+    transform: translateZ(0); 
+    filter: blur(0); 
 }
 .loaded .gallery {
 	opacity: 1;
