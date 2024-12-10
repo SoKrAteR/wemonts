@@ -29,7 +29,7 @@ const homeTexts = {
 	"home_page-5": {
 		ru: "Наша компания объединяет профессионалов в области сварки и монтажа оборудования с более чем 10ти-летним опытом и подтвержденным высоким уровнем мастерства.",
 		en: "Our company brings together professionals in welding and equipment installation with over 10 years of experience and proven high-level expertise.",
-		de: "Mūsu uzņēmums apvieno profesionāļus metināšanas un iekārtu montāžas jomā ar vairāk nekā 10 gadu pieredzi un apliecinātu augstu meistarības līmeni.",
+		de: "Mūsu uzņēmums apvieno metināšanas un iekārtu montāžas jomas profesionāļus ar vairāk nekā 10 gadu pieredzi un apliecinātu augstu kvalifikāciju.",
 	},
 	"home_page-6": {
 		ru: "Мы предлагаем:",
@@ -44,7 +44,7 @@ const homeTexts = {
 	"home_page-8": {
 		ru: "По нержавеющей стали различных марок в среде аргона.",
 		en: "Welding of various grades of stainless steel in an argon environment.",
-		de: "No dažādu marku nerūsējošā tērauda argona vidē.",
+		de: "Dažādu marku nerūsējošā tērauda metināšana argona vidē.",
 	},
 	"home_page-9": {
 		ru: "По углеродистой стали.",
@@ -59,22 +59,22 @@ const homeTexts = {
 	"home_page-11": {
 		ru: "Технологического оборудования, в том числе пищевого оборудования, резервуаров, сантехнических и пожарных узлов, технологических и сервисных трубопроводов.",
 		en: "Technological equipment, including food processing equipment, tanks, plumbing and fire protection systems, as well as technological and service pipelines.",
-		de: "Tehnoloģiskā iekārta, tostarp pārtikas pārstrādes iekārtas, tvertnes, santehnikas un ugunsdrošības sistēmas, kā arī tehnoloģiskie un apkalpojošie cauruļvadi.",
+		de: "Tehnoloģisko iekārtu, tostarp pārtikas pārstrādes un ražošans iekārtu, tvertnņu, santehnikas un ugunsdrošības sistēmu, kā arī tehnoloģisku un apkalpošanas cauruļvadu montāža.",
 	},
 	"home_page-12": {
 		ru: "Металлоконструкций эстакад, платформ под установку оборудования, прокладку трубопроводов.",
 		en: "Metal structures for racks, platforms for equipment installation, and pipeline routing.",
-		de: "Metāla konstrukcijas plauktiem, platformām iekārtu uzstādīšanai un cauruļvadu maršrutēšanai.",
+		de: "Metāla konstrukciju plauktu, iekārtu uzstādīšanas platformu montāža, ka arī un cauruļvadu ieklāšana.",
 	},
 	"home_page-13": {
 		ru: "Обвязка оборудования технологическими трубопроводами из нержавеющей стали.",
 		en: "Equipment piping with stainless steel technological pipelines.",
-		de: "Aprīkojuma cauruļvadi ar nerūsējošā tērauda tehnoloģiskajām caurulēm.",
+		de: "Aprīkojuma savienošana ar nerūsējošā tērauda tehnoloģiskiem cauruļvadiem.",
 	},
 	"home_page-14": {
 		ru: "Прокладка кабельных трасс, кабелей, монтаж КИПиА, монтаж шкафов управления.",
 		en: "Laying cable routes, installing cables, instrumentation and control (I&C) installation, and control cabinet assembly.",
-		de: "Kabeļu maršrutu ierīkošana, kabeļu uzstādīšana, instrumentācijas un vadības (I&V) uzstādīšana, kā arī vadības skapju montāža.",
+		de: "Kabeļu montāža, kabeļu trašu ierīkošana, vadības skapju izveide un uzstadīšana.",
 	},
 	"home_page-15": {
 		ru: "Проектирование, обеспечение:",
@@ -89,7 +89,7 @@ const homeTexts = {
 	"home_page-17": {
 		ru: "Поставка комплектующих из нержавеющей стали AISI 304, AISI 316L и оборудования для пищевых производств.",
 		en: "Supply of components made of stainless steel AISI 304, AISI 316L, and equipment for food production.",
-		de: "Komponentu piegāde no nerūsējošā tērauda AISI 304, AISI 316L un iekārtu piegāde pārtikas ražošanai.",
+		de: "AISI 304, AISI 316L nerusējošā tērauda komponentu, pārtikas produktu ražošanas aprīkojuma piegāde.",
 	},
 	"home_page-18": {
 		ru: "Преимущества нашей компании:",
